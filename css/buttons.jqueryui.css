@@ -88,6 +88,7 @@ div.dt-button-collection.fixed {
   top: 50%;
   left: 50%;
   margin-left: -75px;
+  border-radius: 0;
 }
 div.dt-button-collection.fixed.two-column {
   margin-left: -150px;
