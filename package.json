@@ -6,7 +6,8 @@
         "js/buttons.jqueryui.js",
         "css/buttons.jqueryui.css"
     ],
-    "main": "./js/buttons.jqueryui.js",
+    "main": "js/buttons.jqueryui.js",
+    "style": "css/buttons.jqueryui.css",
     "keywords": [
         "buttons",
         "excel",
