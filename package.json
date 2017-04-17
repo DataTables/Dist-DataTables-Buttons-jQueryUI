@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-buttons-jqui",
-    "version": "1.2.4",
+    "version": "2.2.0",
     "description": "Buttons for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "js/buttons.jqueryui.js",
