@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-buttons-ju</id>
-    <version>1.7.0</version>
-    <description>Buttons for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>buttons DataTables jQuery table jqueryUI</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Buttons-jqueryUI.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-buttons" version="1.6.3"/>
-      <dependency id="jqueryui" version="1.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/buttons.jqueryui.js" target="content\Scripts"/>
-    <file src="js/buttons.jqueryui.min.js" target="content\Scripts"/>
-    <file src="css/buttons.jqueryui.css" target="content\Content"/>
-    <file src="css/buttons.jqueryui.min.css" target="content\Content"/>
-    <file src="js/buttons.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/buttons.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/buttons.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/buttons.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.7.0</version>
+        <id>datatables.net-buttons-jqui</id>
+        <description>This is Buttons for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Buttons-jQueryUI.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>Buttons  Column Visibility  csv  excel  pdf  print  jQuery UI  jQueryUI  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-buttons" version=">=1.7.0"/>
+            <dependency id="datatables.net-jqui" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/buttons.jqueryui.js" target="content\Scripts"/>
+        <file src="js/buttons.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/buttons.jqueryui.min.js" target="content\Scripts"/>
+        <file src="js/buttons.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/buttons.jqueryui.css" target="content\Content"/>
+        <file src="css/buttons.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/buttons.jqueryui.min.css" target="content\Content"/>
+        <file src="css/buttons.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/buttons.jQueryUI.d.ts" target="content\Scripts"/>
+        <file src="types/buttons.jQueryUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

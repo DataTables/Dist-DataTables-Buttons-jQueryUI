@@ -1,37 +1,50 @@
 {
     "name": "datatables.net-buttons-jqui",
+    "description": "Buttons for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/buttons.jqueryui.js",
+    "style": "css/buttons.jqueryui.css",
     "version": "1.7.0",
-    "description": "Buttons for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/buttons.jqueryui.js",
-    "style": "css/buttons.jqueryui.css",
     "keywords": [
-        "buttons",
-        "excel",
-        "pdf",
-        "csv",
-        "column visibility",
-        "print",
-        "DataTables",
+        "Buttons",
+ "Column Visibility",
+ "csv",
+ "excel",
+ "pdf",
+ "print",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-buttons": ">=1.7.0",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-buttons": "1.7.0"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Buttons-jQueryUI.git"
