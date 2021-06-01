@@ -3,6 +3,7 @@
     "description": "Buttons for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/buttons.jqueryui.js",
     "style": "css/buttons.jqueryui.css",
+    "types": "./types/buttons.jQueryUI.d.ts",
     "version": "1.7.0",
     "files": [
         "css/**/*.css",
