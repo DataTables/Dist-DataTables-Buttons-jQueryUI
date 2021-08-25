@@ -187,6 +187,7 @@ div.dt-button-collection .dt-button {
 
 div.dt-btn-split-wrapper {
   padding: 0px !important;
+  display: flex;
   border: none;
   margin: 0px;
 }
