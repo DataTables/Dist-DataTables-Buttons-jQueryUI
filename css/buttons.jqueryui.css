@@ -236,6 +236,19 @@ div.dt-btn-split-wrapper button.dt-btn-split-drop {
   border-radius: 0px;
   margin-left: -1px;
 }
+div.dt-btn-split-wrapper:active:not(.disabled) button.dt-button, div.dt-btn-split-wrapper.ui-state-active:not(.disabled) button.dt-button, div.dt-btn-split-wrapper.is-active:not(.disabled) button.dt-button {
+  background-color: #007fff;
+  border-color: #003eff;
+}
+div.dt-btn-split-wrapper:active:not(.disabled) button.dt-btn-split-drop, div.dt-btn-split-wrapper.ui-state-active:not(.disabled) button.dt-btn-split-drop, div.dt-btn-split-wrapper.is-active:not(.disabled) button.dt-btn-split-drop {
+  box-shadow: none;
+  background-color: #f6f6f6;
+  border-color: #c5c5c5;
+}
+div.dt-btn-split-wrapper:active:not(.disabled) button:hover, div.dt-btn-split-wrapper.ui-state-active:not(.disabled) button:hover, div.dt-btn-split-wrapper.is-active:not(.disabled) button:hover {
+  background-color: #ededed;
+  border-color: #cccccc;
+}
 
 div.dt-button-background {
   position: fixed;
