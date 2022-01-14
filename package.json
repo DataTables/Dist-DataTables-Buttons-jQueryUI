@@ -4,7 +4,7 @@
     "main": "js/buttons.jqueryui.js",
     "style": "css/buttons.jqueryui.css",
     "types": "./types/buttons.jQueryUI.d.ts",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
