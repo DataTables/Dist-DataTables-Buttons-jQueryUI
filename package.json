@@ -2,12 +2,14 @@
     "name": "datatables.net-buttons-jqui",
     "description": "Buttons for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/buttons.jqueryui.js",
+    "module": "js/buttons.jqueryui.mjs",
     "style": "css/buttons.jqueryui.css",
     "types": "./types/buttons.jQueryUI.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
