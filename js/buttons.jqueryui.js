@@ -28,10 +28,9 @@
 				require('datatables.net-ju')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.Buttons ) {
 				require('datatables.net-buttons')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
