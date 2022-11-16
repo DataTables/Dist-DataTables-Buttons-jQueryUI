@@ -3,7 +3,7 @@
  */
 
 import $ from 'jquery';
-import DataTable from 'datatables.net-ju';
+import DataTable from 'datatables.net-jqui';
 import Buttons from 'datatables.net-buttons';
 
 
