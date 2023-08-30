@@ -5,7 +5,7 @@
     "module": "js/buttons.jqueryui.mjs",
     "style": "css/buttons.jqueryui.css",
     "types": "./types/buttons.jqueryui.d.ts",
-    "version": "2.4.1",
+    "version": "2.4.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
