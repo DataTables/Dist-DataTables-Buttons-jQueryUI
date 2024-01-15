@@ -28,7 +28,7 @@ $.extend(true, DataTable.Buttons.defaults, {
 			disabled: 'ui-state-disabled',
 			active: 'ui-state-active',
 			liner: {
-				tag: '',
+				tag: 'span',
 				className: ''
 			}
 		},
