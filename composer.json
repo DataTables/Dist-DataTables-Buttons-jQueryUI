@@ -32,6 +32,6 @@
     ],
     "require": {
         "datatables.net/datatables.net-buttons": ">=2.2.3",
-        "datatables.net/datatables.net-jqui": ">=1.12.1"
+        "datatables.net/datatables.net-ju": ">=1.12.1"
     }
 }
