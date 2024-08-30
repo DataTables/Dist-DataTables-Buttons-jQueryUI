@@ -5,7 +5,7 @@
     "module": "js/buttons.jqueryui.mjs",
     "style": "css/buttons.jqueryui.css",
     "types": "./types/buttons.jqueryui.d.ts",
-    "version": "3.1.1",
+    "version": "3.1.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -28,7 +28,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-buttons": "3.1.1",
+        "datatables.net-buttons": "3.1.2",
         "datatables.net-jqui": "^2",
         "jquery": ">=1.7"
     },
