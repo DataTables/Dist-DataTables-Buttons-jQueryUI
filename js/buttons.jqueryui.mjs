@@ -13,9 +13,6 @@ let $ = jQuery;
 $.extend(true, DataTable.Buttons.defaults, {
 	dom: {
 		collection: {
-			action: {
-				dropHtml: '<span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"/>'
-			},
 			button: {
 				active: 'dt-button-active'
 			}
@@ -30,7 +27,9 @@ $.extend(true, DataTable.Buttons.defaults, {
 			liner: {
 				tag: 'span',
 				className: ''
-			}
+			},
+			dropHtml: '<span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"/>',
+			dropClass: ''
 		},
 		split: {
 			action: {
@@ -39,7 +38,6 @@ $.extend(true, DataTable.Buttons.defaults, {
 			},
 			dropdown: {
 				tag: 'button',
-				dropHtml: '<span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"/>',
 				className: 'dt-button-split-drop ui-button ui-corner-right'
 			},
 			wrapper: {

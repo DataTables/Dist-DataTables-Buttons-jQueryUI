@@ -241,13 +241,22 @@ div.dt-button-collection .dt-button {
   width: 100%;
   box-sizing: border-box;
   text-align: left;
-  display: block;
   float: none;
   margin-right: 0;
   margin-bottom: 4px;
+  display: flex;
+  float: none;
+  justify-content: space-between;
+  align-items: center;
+}
+div.dt-button-collection .dt-button .ui-icon {
+  margin-right: -9px;
 }
 div.dt-button-collection .dt-button-split {
   width: 100%;
+}
+div.dt-button-collection .dt-button-split button:last-child {
+  display: block;
 }
 div.dt-button-collection.fixed {
   position: fixed;
