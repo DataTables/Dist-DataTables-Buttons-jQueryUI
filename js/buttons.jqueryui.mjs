@@ -1,16 +1,12 @@
-/*! jQuery UI integration for DataTables' Buttons
- * © SpryMedia Ltd - datatables.net/license
+/*! Buttons jQuery UI styling 4.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-jqui';
 import Buttons from 'datatables.net-buttons';
 
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
-
-$.extend(true, DataTable.Buttons.defaults, {
+DataTable.util.object.assignDeep(DataTable.Buttons.defaults, {
 	dom: {
 		collection: {
 			button: {
@@ -50,3 +46,4 @@ $.extend(true, DataTable.Buttons.defaults, {
 
 
 export default DataTable;
+
