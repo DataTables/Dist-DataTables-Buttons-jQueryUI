@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-buttons-jqui",
     "description": "Buttons for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/buttons.jqueryui.js",
-    "module": "js/buttons.jqueryui.mjs",
-    "style": "css/buttons.jqueryui.css",
+    "main": "./js/buttons.jqueryui.js",
+    "module": "./js/buttons.jqueryui.mjs",
+    "style": "./css/buttons.jqueryui.css",
     "types": "./types/buttons.jqueryui.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Buttons",
@@ -40,5 +39,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Buttons.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/buttons.jqueryui.d.ts",
+            "import": "./js/buttons.jqueryui.mjs",
+            "default": "./js/buttons.jqueryui.mjs",
+            "require": "./js/buttons.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/buttons.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

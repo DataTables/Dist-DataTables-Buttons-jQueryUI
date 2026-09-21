@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-buttons-jqui",
-    "description": "Buttons for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "description": "Buttons for DataTables with styling for jQueryUI",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-Buttons-jQueryUI"
