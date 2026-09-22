@@ -1,4 +1,4 @@
-/*! Buttons jQuery UI styling 4.0.3 for DataTables
+/*! Buttons jQuery UI styling 4.1.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
