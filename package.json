@@ -43,9 +43,10 @@
     "exports": {
         ".": {
             "types": "./types/buttons.jqueryui.d.ts",
+            "style": "./css/buttons.jqueryui.css",
             "import": "./js/buttons.jqueryui.mjs",
-            "default": "./js/buttons.jqueryui.mjs",
-            "require": "./js/buttons.jqueryui.js"
+            "require": "./js/buttons.jqueryui.js",
+            "default": "./js/buttons.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
